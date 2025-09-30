@@ -1,5 +1,6 @@
 import { promises as fs } from 'fs';
 
+// only for txt files, needs later impelmentation for PDF files and DOCX files.
 class DocumentReaderTool {
     //blijkbaar is dit een functie die door de Agent aangeroepen kan worden om de interface van deze tool op te halen.
     static getDefinition() {
